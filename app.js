@@ -22,12 +22,22 @@
 // console.log(a)
 
 
-function x() {
-  var a = 20;
-  function y() {
-    console.log(a);
-  }
-  y();
+// function x() {
+//   var a = 20;
+//   function y() {
+//     console.log(a);
+//   }
+//   return y;
+// }
+// let res=x();
+// console.log(res)
+// res()
+
+
+let s=function (para1){
+    console.log(para1)
+ 
 }
-let res=x();
-console.log(x)
+s(function (){
+
+})
