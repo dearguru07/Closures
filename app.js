@@ -21,7 +21,6 @@
 // let a;
 // console.log(a)
 
-
 // function x() {
 //   var a = 20;
 //   function y() {
@@ -33,11 +32,25 @@
 // console.log(res)
 // res()
 
+// let s=function (para1){
+//     console.log(para1)
 
-let s=function (para1){
-    console.log(para1)
- 
-}
-s(function (){
+// }
+// s(function (){
 
-})
+// })
+
+
+let values = [1, 25, "e", "h", "guru", 85];
+let numbs = [];
+let strings = [];
+
+values.forEach((ele) => {
+  if (typeof ele === "string") {
+    strings.push(ele);
+  } else {
+    numbs.push(ele);
+  }
+});
+console.log(numbs);
+console.log(strings);
