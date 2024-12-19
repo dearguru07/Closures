@@ -11,13 +11,30 @@
 //   console.log(a);
 // }
 
+// const numbers = [1, 25, 7, 6, 3];
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//     sum += numbers[i];
+// }
+
+// console.log("Sum of the array:", sum);
 
 
-const numbers = [1, 25, 7, 6, 3];
-let sum = 0;
+const input = "Hello World";
 
-for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-}
+  const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+  const result = [];
 
-console.log("Sum of the array:", sum); 
+  for (let i = 0; i < input.length; i++) {
+    for (let j = 0; j < vowels.length; j++) {
+      if (input[i] === vowels[j]) {
+        result.push(input[i]);
+        break;
+      }
+    }
+  }
+
+
+const vowelsInString = result;
+console.log("Vowels in the string:", vowelsInString); // Output: ['e', 'o', 'o']
