@@ -11,14 +11,16 @@
 //   console.log(a);
 // }
 
-// const numbers = [1, 25, 7, 6, 3];
-// let sum = 0;
 
-// for (let i = 0; i < numbers.length; i++) {
-//     sum += numbers[i];
-// }
 
-// console.log("Sum of the array:", sum);
+const numbers = [1, 25, 7, 6, 3];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+console.log("Sum of the array:", sum);
 
 
 
@@ -39,23 +41,24 @@ const vowelsInStrings = result;
 console.log("Vowels in the string:", vowelsInStrings); // Output: ['e', 'o', 'o']
 
 
+
+
 function findVowels(str) {
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-    const result = [];
-    
-    for (let i = 0; i < str.length; i++) {
-        for (let j = 0; j < vowels.length; j++) {
-            if (str[i] === vowels[j]) {
-                result.push(str[i]);
-                break;
-            }
-        }
+  const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+  const result = [];
+
+  for (let i = 0; i < str.length; i++) {
+    for (let j = 0; j < vowels.length; j++) {
+      if (str[i] === vowels[j]) {
+        result.push(str[i]);
+        break;
+      }
     }
-    
-    return result;
+  }
+
+  return result;
 }
 
-// Example usage:
 const inputs = "Hello World";
 const vowelsInString = findVowels(inputs);
 console.log("Vowels in the string:", vowelsInString); // Output: ['e', 'o', 'o']
