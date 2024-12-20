@@ -28,17 +28,29 @@
 // console.log(a)
 
 
-let b = 10;
+// let b = 10;
+// {
+//   var a = 100;
+//   let b = 20;
+//   const c = 30;
+
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+
+// // console.log(a);
+// console.log(b);
+// // console.log(c);
+
+// var a=2000
+let a=10
 {
-  var a = 100;
-  let b = 20;
-  const c = 30;
-
-  console.log(a);
-  console.log(b);
-  console.log(c);
+    let a=20
+    {
+        let a=200
+        console.log(a)
+    }
+    console.log(a)
 }
-
-// console.log(a);
-console.log(b);
-// console.log(c);
+console.log(a)
