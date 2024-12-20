@@ -75,17 +75,39 @@
 // console.log(v)
 // v()
 
+// function v() {
+//   var k = 20;
+//   function a() {
+//     var b = 8;
+//     function x() {
+//       console.log(b, k);
+//     }
+//     x();
+//   }
+//   a();
+// }
+// v();
 
+// setTimeout(()=>{
+//     console.log('hello world....')
+// },2000)
 
-function v() {
-  var k = 20;
-  function a() {
-    var b = 8;
-    function x() {
-      console.log(b, k);
+// function x(){
+//     var i=10
+//     setTimeout(()=>{
+//         console.log(i)
+//     },3000)
+// }
+// x()
+
+function a() {
+  for (let i = 1; i <= 5; i++) {
+    function b(x) {
+      setTimeout(() => {
+        console.log(x);
+      }, x * 1000);
     }
-    x();
+    b(i)
   }
-  a();
 }
-v();
+a();
