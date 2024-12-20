@@ -27,7 +27,6 @@
 // a=20
 // console.log(a)
 
-
 // let b = 10;
 // {
 //   var a = 100;
@@ -43,14 +42,50 @@
 // console.log(b);
 // // console.log(c);
 
-// var a=2000
-let a=10
-{
-    let a=20
-    {
-        let a=200
-        console.log(a)
+// var b=2000
+// let a=10
+// {
+//     let a=20
+//     {
+//         let a=200
+//         console.log(a)
+//     }
+//     console.log(a)
+// }
+// console.log(a)
+
+// function x() {
+//   const a = 20;
+//   function y() {
+//     const z = 25;
+//     console.log(a);
+//   }
+//   y();
+// }
+// x();
+
+// function a(){
+//     var b=8
+//     function x(){
+//         console.log(b)
+//     }
+//     return x
+// }
+// let v=a()
+// console.log(v)
+// v()
+
+
+
+function v() {
+  var k = 20;
+  function a() {
+    var b = 8;
+    function x() {
+      console.log(b, k);
     }
-    console.log(a)
+    x();
+  }
+  a();
 }
-console.log(a)
+v();
