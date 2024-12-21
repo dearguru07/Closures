@@ -196,12 +196,34 @@
 // res();
 
 
-function x() {
-  var count = 10;
-  var a = 1;
-  function y() {
-    console.log(count);
-  }
-  return y;
+// function x() {
+//   var count = 10;
+//   var a = 1;
+//   function y() {
+//     console.log(count);
+//   }
+//   return y;
+// }
+// x()();
+
+// a()
+// function a(){
+//   console.log('a called..')
+// }
+
+// var a=function x(){
+//   console.log(x)
+// }
+// a()
+
+
+setTimeout(()=>{
+  console.log('hello')
+},3000)
+function a(y){
+  console.log('One..')
+  y()
 }
-x()();
+a(function y(){
+  console.log('Namste....')
+})
