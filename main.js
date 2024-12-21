@@ -100,14 +100,68 @@
 // }
 // x()
 
-function a() {
-  for (let i = 1; i <= 5; i++) {
-    function b(x) {
-      setTimeout(() => {
-        console.log(x);
-      }, x * 1000);
-    }
-    b(i)
-  }
+
+
+// function a() {
+//   for (let i = 1; i <= 5; i++) {
+//     function b(x) {
+//       setTimeout(() => {
+//         console.log(x);
+//       }, x * 1000);
+//     }
+//     b(i)
+//   }
+// }
+// a();
+
+
+// function a(){
+//   for (var i=1;i<=5;i++){
+//     setTimeout(()=>{
+//       console.log(i)
+//     },2000)
+//   }
+// }
+// a()
+
+
+
+// function a(){
+//   for (let i=1;i<=5;i++){
+//     console.log(i)
+//   }
+// }
+// a()
+
+
+// function a(){
+//   for (var i=0;i<=5;i++){
+//     function x(x){
+//       setTimeout(()=>{
+//         console.log(x)
+//       },i*1000)
+//     }
+//     x(i)
+//   }
+// }
+// a()
+
+
+// function a(){
+//   for (let i=1;i<=5;i++){
+//     setTimeout(()=>{
+//       console.log(i)
+//     },2000)
+//   }
+// }
+// a()
+
+
+var a=10
+let b=20
+function x(){
+  let b=50
+  console.log(a)
+  console.log(b)
 }
-a();
+x()
