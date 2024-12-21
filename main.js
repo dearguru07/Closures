@@ -182,17 +182,26 @@
 // // console.log(res)
 // res()
 
+// function z(c) {
+//   function a(y) {
+//     function b() {
+//       console.log(x, y,c);
+//     }
+//     let x = 10;
+//     return b;
+//   }
+//   return a;
+// }
+// let res = z(20);
+// res();
 
 
-function z(c) {
-  function a(y) {
-    function b() {
-      console.log(x, y,c);
-    }
-    let x = 10;
-    return b;
+function x() {
+  var count = 10;
+  var a = 1;
+  function y() {
+    console.log(count);
   }
-  return a;
+  return y;
 }
-let res = z(20);
-res();
+x()();
