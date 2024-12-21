@@ -157,11 +157,25 @@
 // a()
 
 
-var a=10
-let b=20
-function x(){
-  let b=50
-  console.log(a)
-  console.log(b)
+// var a=10
+// let b=20
+// function x(){
+//   let b=50
+//   console.log(a)
+//   console.log(b)
+// }
+// x()
+
+
+// let a =10
+// var b=4
+// {
+//   let a=20
+//   console.log(a)
+//   console.log(b)
+// }
+
+function a(b,c){
+  console.log(b+c)
 }
-x()
+a(2,4)
