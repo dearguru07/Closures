@@ -100,8 +100,6 @@
 // }
 // x()
 
-
-
 // function a() {
 //   for (let i = 1; i <= 5; i++) {
 //     function b(x) {
@@ -114,7 +112,6 @@
 // }
 // a();
 
-
 // function a(){
 //   for (var i=1;i<=5;i++){
 //     setTimeout(()=>{
@@ -124,15 +121,12 @@
 // }
 // a()
 
-
-
 // function a(){
 //   for (let i=1;i<=5;i++){
 //     console.log(i)
 //   }
 // }
 // a()
-
 
 // function a(){
 //   for (var i=0;i<=5;i++){
@@ -146,7 +140,6 @@
 // }
 // a()
 
-
 // function a(){
 //   for (let i=1;i<=5;i++){
 //     setTimeout(()=>{
@@ -155,7 +148,6 @@
 //   }
 // }
 // a()
-
 
 // var a=10
 // let b=20
@@ -166,7 +158,6 @@
 // }
 // x()
 
-
 // let a =10
 // var b=4
 // {
@@ -175,7 +166,33 @@
 //   console.log(b)
 // }
 
-function a(b,c){
-  console.log(b+c)
+// function a(b,c){
+//   console.log(b+c)
+// }
+// a(2,4)
+
+// function a(){
+//   function b(){
+//     console.log(v)
+//   }
+//   let v=10
+//   return b
+// }
+// var res=a()
+// // console.log(res)
+// res()
+
+
+
+function z(c) {
+  function a(y) {
+    function b() {
+      console.log(x, y,c);
+    }
+    let x = 10;
+    return b;
+  }
+  return a;
 }
-a(2,4)
+let res = z(20);
+res();
