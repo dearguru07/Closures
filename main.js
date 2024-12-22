@@ -217,13 +217,30 @@
 // a()
 
 
-setTimeout(()=>{
-  console.log('hello')
-},3000)
-function a(y){
-  console.log('One..')
-  y()
+// setTimeout(()=>{
+//   console.log('hello')
+// },3000)
+// function a(y){
+//   console.log('One..')
+//   y()
+// }
+// a(function y(){
+//   console.log('Namste....')
+// })
+
+
+// let counter=0
+// document.getElementById('clickMe')
+// .addEventListener('click',function (){
+//   console.log('Hello world...',counter++)
+// })
+
+
+function a(){
+  let count=0
+  document.getElementById('clickMe')
+  .addEventListener('click',function n(){
+    console.log('Hello world...',++count)
+  })
 }
-a(function y(){
-  console.log('Namste....')
-})
+a()
