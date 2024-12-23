@@ -250,14 +250,33 @@
 // }
 // a();
 
-function a() {
-  for (var i = 1; i <= 5; i++) {
-    function x(u) {
-      setTimeout(() => {
-        console.log(u);
-      }, u * 2000);
-    }
-    x(i)
-  }
-}
-a()
+
+// function a() {
+//   for (var i = 1; i <= 5; i++) {
+//     function x(u) {
+//       setTimeout(() => {
+//         console.log(u);
+//       }, u * 2000);
+//     }
+//     x(i)
+//   }
+// }
+// a()
+
+
+// setTimeout(()=>{
+//   console.log('One...')
+// },3000)
+// function x(Y){
+//   console.log('Two...')
+//   Y()
+// }
+// x(function Y(){
+//   console.log('Threee')
+// })
+
+
+document.getElementById("clickMe")
+.addEventListener("click",function(){
+  console.log("Btn is clicked...........")
+})
