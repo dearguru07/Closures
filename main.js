@@ -275,8 +275,8 @@
 //   console.log('Threee')
 // })
 
-
+var count=0
 document.getElementById("clickMe")
-.addEventListener("click",function(){
-  console.log("Btn is clicked...........")
+.addEventListener("click",function xyz(){
+  console.log("Btn is clicked.........",++count)
 })
