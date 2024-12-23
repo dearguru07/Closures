@@ -250,7 +250,6 @@
 // }
 // a();
 
-
 // function a() {
 //   for (var i = 1; i <= 5; i++) {
 //     function x(u) {
@@ -263,7 +262,6 @@
 // }
 // a()
 
-
 // setTimeout(()=>{
 //   console.log('One...')
 // },3000)
@@ -275,8 +273,10 @@
 //   console.log('Threee')
 // })
 
-var count=0
-document.getElementById("clickMe")
-.addEventListener("click",function xyz(){
-  console.log("Btn is clicked.........",++count)
-})
+function clickME() {
+  let count = 0;
+  document.getElementById("clickMe").addEventListener("click", function xyz() {
+    console.log("Btn is clicked......", ++count);
+  });
+}
+clickME();
