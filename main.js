@@ -232,6 +232,7 @@
 //   console.log('Hello world...',counter++)
 // })
 
+
 // function a(){
 //   let count=0
 //   document.getElementById('clickMe')
@@ -241,6 +242,7 @@
 // }
 // a()
 
+
 // function a(){
 //   for (let i=1;i<=5;i++){
 //     setTimeout(()=>{
@@ -249,6 +251,7 @@
 //   }
 // }
 // a();
+
 
 // function a() {
 //   for (var i = 1; i <= 5; i++) {
@@ -262,6 +265,7 @@
 // }
 // a()
 
+
 // setTimeout(()=>{
 //   console.log('One...')
 // },3000)
@@ -273,10 +277,22 @@
 //   console.log('Threee')
 // })
 
-function clickME() {
-  let count = 0;
-  document.getElementById("clickMe").addEventListener("click", function xyz() {
-    console.log("Btn is clicked......", ++count);
-  });
+
+
+// function clickME() {
+//   let count = 0;
+//   document.getElementById("clickMe").addEventListener("click", function xyz() {
+//     console.log("Btn is clicked......", ++count);
+//   });
+// }
+// clickME();
+
+
+function a(){
+  for (let i=1;i<=5;i++){
+    setTimeout(()=>{
+    console.log(i)
+    })
+  }
 }
-clickME();
+a()
