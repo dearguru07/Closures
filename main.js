@@ -303,3 +303,12 @@
 // });
 // console.log("End....");
 
+
+console.log("Start....");
+setTimeout(function cbT() {
+  console.log("Timer...");
+}, 5000);
+fetch("https://api.github.com/users").then(function cbF(){
+  console.log("API call...");
+})
+console.log("End....");
