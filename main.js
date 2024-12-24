@@ -288,11 +288,17 @@
 // clickME();
 
 
-function a(){
-  for (let i=1;i<=5;i++){
-    setTimeout(()=>{
-    console.log(i)
-    })
-  }
-}
-a()
+// function a(){
+//   for (let i=1;i<=5;i++){
+//     setTimeout(()=>{
+//     console.log(i)
+//     })
+//   }
+// }
+// a()
+
+console.log('Start')
+setTimeout(function cb(){
+  console.log('Timer..')
+},4000)
+console.log('End..')
