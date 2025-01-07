@@ -90,3 +90,20 @@ function a(){
   return c
 }
 a()()
+
+function a(){
+  var b=10
+  function c(){
+    console.log(b)
+  }
+  return c
+}
+a()()
+function a(){
+  var b=10
+  function c(){
+    console.log(b)
+  }
+  return c
+}
+a()()
