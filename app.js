@@ -81,7 +81,6 @@
 // var res=increment();
 // res()
 
-
 // function a(){
 //   var b=10
 //   function c(){
@@ -107,7 +106,6 @@
 //   return c
 // }
 // a()()
-
 
 // genarateOTP-------------
 
@@ -118,7 +116,6 @@
 // }
 // console.log(genarateOTP())
 
-
 // removing the duplicate values---
 
 // let array=[1,2,5,7,8,5,2,1,4,6,6]
@@ -128,7 +125,6 @@
 // let string=["guru",'charan','ramu','seeta','geeta','seeta','guru','ram']
 // let sol=[...new Set(string)]
 // console.log(sol)
-
 
 // polyndrome----------
 
@@ -143,21 +139,37 @@
 // }
 // Polyndrome('madam')
 
-
 // Filter example------------
 
-const Heros=['Mahesh','Chaithanya',"akhil",'Ramcharan','Pawan','Nihkil','Munna','Martan']
-function FindActor(Heros,inital){
-  return Heros.filter((Heros)=>
-      Heros.startsWith(inital)
-  )
-}
-const res=FindActor(Heros,'M')
-console.log(res)
+// const Heros = [
+//   "Mahesh",
+//   "Chaithanya",
+//   "akhil",
+//   "Ramcharan",
+//   "Pawan",
+//   "Nihkil",
+//   "Munna",
+//   "Martan",
+// ];
+// function FindActor(Heros, inital) {
+//   return Heros.filter((Heros) => Heros.startsWith(inital));
+// }
+// const res = FindActor(Heros, "M");
+// console.log(res);
+
+// function Find(Heros, inital) {
+//   return Heros.filter((Heros) => Heros.startsWith(inital));
+// }
+// let solu = Find(Heros, "C");
+// console.log(solu);
 
 
-function Find(Heros,inital){
-  return Heros.filter((Heros)=>Heros.startsWith(inital))
+
+function a() {
+  var x = 10;
+  function b() {
+    console.log(x);
+  }
+  b();
 }
-let solu=Find(Heros,'C')
-console.log(solu)
+a();
