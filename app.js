@@ -82,28 +82,36 @@
 // res()
 
 
-function a(){
-  var b=10
-  function c(){
-    console.log(b)
-  }
-  return c
-}
-a()()
+// function a(){
+//   var b=10
+//   function c(){
+//     console.log(b)
+//   }
+//   return c
+// }
+// a()()
 
-function a(){
-  var b=10
-  function c(){
-    console.log(b)
-  }
-  return c
+// function a(){
+//   var b=10
+//   function c(){
+//     console.log(b)
+//   }
+//   return c
+// }
+// a()()
+// function a(){
+//   var b=10
+//   function c(){
+//     console.log(b)
+//   }
+//   return c
+// }
+// a()()
+
+
+function genarateOTP(){
+  let otp=''
+  otp=Math.floor(Math.random()*9999)
+  return otp
 }
-a()()
-function a(){
-  var b=10
-  function c(){
-    console.log(b)
-  }
-  return c
-}
-a()()
+console.log(genarateOTP())
