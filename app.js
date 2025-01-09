@@ -109,9 +109,22 @@
 // a()()
 
 
-function genarateOTP(){
-  let otp=''
-  otp=Math.floor(Math.random()*9999)
-  return otp
-}
-console.log(genarateOTP())
+// genarateOTP-------------
+
+// function genarateOTP(){
+//   let otp=''
+//   otp=Math.floor(Math.random()*9999)
+//   return otp
+// }
+// console.log(genarateOTP())
+
+
+// removing the duplicate values---
+
+let array=[1,2,5,7,8,5,2,1,4,6,6]
+let res=[...new Set(array)]
+console.log(res)
+
+let string=["guru",'charan','ramu','seeta','geeta','seeta','guru','ram']
+let sol=[...new Set(string)]
+console.log(sol)
