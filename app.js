@@ -121,10 +121,43 @@
 
 // removing the duplicate values---
 
-let array=[1,2,5,7,8,5,2,1,4,6,6]
-let res=[...new Set(array)]
+// let array=[1,2,5,7,8,5,2,1,4,6,6]
+// let res=[...new Set(array)]
+// console.log(res)
+
+// let string=["guru",'charan','ramu','seeta','geeta','seeta','guru','ram']
+// let sol=[...new Set(string)]
+// console.log(sol)
+
+
+// polyndrome----------
+
+// function Polyndrome(str){
+//     const reverse=str.split("").reverse().join("")
+//     if(str===reverse){
+//       console.log('poly')
+//     }
+//     else{
+//       console.log('not plou')
+//     }
+// }
+// Polyndrome('madam')
+
+
+// Filter example------------
+
+const Heros=['Mahesh','Chaithanya',"akhil",'Ramcharan','Pawan','Nihkil','Munna','Martan']
+function FindActor(Heros,inital){
+  return Heros.filter((Heros)=>
+      Heros.startsWith(inital)
+  )
+}
+const res=FindActor(Heros,'M')
 console.log(res)
 
-let string=["guru",'charan','ramu','seeta','geeta','seeta','guru','ram']
-let sol=[...new Set(string)]
-console.log(sol)
+
+function Find(Heros,inital){
+  return Heros.filter((Heros)=>Heros.startsWith(inital))
+}
+let solu=Find(Heros,'C')
+console.log(solu)
