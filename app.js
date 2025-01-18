@@ -52,19 +52,19 @@
 // const vowelsInString = findVowels(inputs);
 // console.log("Vowels in the string:", vowelsInString); // Output: ['e', 'o', 'o']
 
-// const inpuTwo = "Hello world..a,e,i";
-// const vowelsTwo = ["a", "e", "i", "o", "u"];
-// const res = [];
+const inpuTwo = "Hello world..a,e,i";
+const vowelsTwo = ["a", "e", "i", "o", "u"];
+const res = [];
 
-// for (let i = 0; i < inpuTwo.length; i++) {
-//   for (let j = 0; j < vowelsTwo.length; j++) {
-//     if (inpuTwo[i] === vowelsTwo[j]) {
-//       res.push(inpuTwo[i]);
-//     }
-//   }
-// }
-// const resTwo = res;
-// console.log(resTwo);
+for (let i = 0; i < inpuTwo.length; i++) {
+  for (let j = 0; j < vowelsTwo.length; j++) {
+    if (inpuTwo[i] === vowelsTwo[j]) {
+      res.push(inpuTwo[i]);
+    }
+  }
+}
+const resTwo = res;
+console.log(resTwo);
 
 // var count=0
 // function increment(){
@@ -175,9 +175,22 @@
 // a();
 
 
-let numbers=[1,25,4,8]
+// let numbers=[1,25,4,8]
+// let sol=numbers.reduce((acc,curr)=>
+//     acc+curr
+// ,0)
+// console.log(sol)
+
+// const number = [1, 2, 3, 4, 5];
+
+// const sum = number.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+// console.log(sum); // Output: 15
+
+
+
 let sol=numbers.reduce((acc,curr)=>
-    acc+curr
+  acc+curr
 ,0)
 console.log(sol)
 
