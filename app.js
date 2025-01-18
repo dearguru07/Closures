@@ -176,37 +176,4 @@ console.log(resTwo);
 
 
 // let numbers=[1,25,4,8]
-// let sol=numbers.reduce((acc,curr)=>
-//     acc+curr
-// ,0)
-// console.log(sol)
-
-// const number = [1, 2, 3, 4, 5];
-
-// const sum = number.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-
-// console.log(sum); // Output: 15
-
-
-
-let sol=numbers.reduce((acc,curr)=>
-  acc+curr
-,0)
-console.log(sol)
-
-const number = [1, 2, 3, 4, 5];
-
-const sum = number.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-
-console.log(sum); // Output: 15
-
-let sol=numbers.reduce((acc,curr)=>
-  acc+curr
-,0)
-console.log(sol)
-
-const number = [1, 2, 3, 4, 5];
-
-const sum = number.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-
-console.log(sum); // Output: 15
+z
